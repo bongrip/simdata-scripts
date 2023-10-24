@@ -1,3 +1,6 @@
+/* Get Session Codes
+This code get Sip uname & Sip pass and Session code from https://www.textnow.com/messaging
+*/
 var sip;
 fetch("https://www.textnow.com/api/v3/sip").then((response) => {
   return response.json()})
